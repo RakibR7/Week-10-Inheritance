@@ -12,7 +12,7 @@ public class Fields {
         //test customer
         Customer myCust = new Customer("dave","mervue","0694206969","abc",true);
 
-        System.out.println("\nHere are the details" + myCust.toString());
+        System.out.println("Here are the details" + myCust.toString());
     }
 }
 
