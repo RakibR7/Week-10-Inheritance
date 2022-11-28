@@ -7,9 +7,16 @@ public class Fields {
         dave.setAddress("Mervue");
         dave.setNumber("1234");
 
-        System.out.println("Here are daves detials"+ dave.getName());
+        System.out.println("\nHere are Daves details" + dave.toString());
 
+        //test customer
+        Customer myCust = new Customer("dave","mervue","0694206969","abc",true);
+
+        System.out.println("\nHere are the details" + myCust.toString());
     }
 }
+
+
+
 
 
